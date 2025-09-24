@@ -10,7 +10,7 @@ st.set_page_config(
     page_icon="📦",
     layout="wide"
 )
-st.title("📦 Sistema di Assegnazione Pallet (con limite valore)")
+st.title("📦 Sistema di Assegnazione Pallet (con limite a valore)")
 st.markdown("Sistema automatico per l'assegnazione ottimale dei pallet ai negozi")
 st.markdown("---")
 # Initialize session state
@@ -436,5 +436,6 @@ else:
 # Footer
 st.markdown("---")
 st.markdown("*Sistema di Assegnazione Pallet - Versione Web App con Riassegnazione Automatica*")
+
 
 
